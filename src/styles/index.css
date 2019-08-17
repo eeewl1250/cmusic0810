@@ -1,1 +1,8 @@
 @import './reset.css';
+
+html {
+  height: 100%;
+  font-size: 10px;
+  font-size: calc(100vw / 36); /* 设计稿宽度 360dp = 100vw = 36rem */
+  margin: 0 auto;
+}

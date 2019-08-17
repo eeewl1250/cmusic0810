@@ -2,7 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 Vue.use(VueRouter)
 
-import auth from '@/components/Authentication/Index.vue'
+import auth from '@/components/authentication/Index.vue'
 
 const router = new VueRouter({
   routes: [
